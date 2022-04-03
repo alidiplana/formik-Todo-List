@@ -1,0 +1,28 @@
+.row-container {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  background: darkcyan;
+  /* border: 1px solid black; */
+  margin: 1px 0;
+  padding: 10px;
+}
+
+.update-button {
+  background: none;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+
+.update-button:hover,
+.update-button:active {
+  cursor: pointer;
+}
+
+.icon {
+  color: hsl(0, 100%, 50%);
+}

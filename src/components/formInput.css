@@ -1,0 +1,32 @@
+.form {
+  background: hsl(180, 80%, 37%);
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.title {
+  color: white;
+  font-weight: 22px;
+}
+
+.add-button {
+  color: white;
+  background: green;
+  border: unset;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.add-button:hover {
+  cursor: pointer;
+}
+
+.form-input {
+  background: darkcyan;
+  border: unset;
+  height: 24px;
+  color: white;
+}
